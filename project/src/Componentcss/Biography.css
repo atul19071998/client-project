@@ -1,0 +1,400 @@
+/* styling starts here */
+
+/* *{
+    border:1px solid red;
+} */
+.bio-wrapper {
+    width: 100%;
+    height: 350vh;
+
+}
+
+.bio-wrap {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+.bio-left {
+    width: 30%;
+}
+
+.biograph-top {
+    width: 100%;
+    height: 5%;
+}
+
+.biograph-middle {
+    width: 100%;
+    height: 24%;
+
+}
+
+.biograph-middle img {
+    width: 100%;
+    height: 100%;
+    padding: 0.6rem;
+}
+
+.biograph-bottom {
+    width: 100%;
+    height: 7.5rem;
+}
+
+.biograph-bottom .followbtn {
+    width: 100%;
+    height: 3rem;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+
+    background: #3270FC;
+}
+
+.biograph-bottom p {
+    font-size: 1rem;
+    font-family: sans-serif;
+
+}
+
+.followbtn .fa-plus {
+    font-size: 1rem;
+    color: white;
+    margin-top: -5px
+}
+
+.bio-right {
+    width: 70%;
+
+}
+
+.bio-right .bioright-one {
+    width: 100%;
+    height: 5%;
+}
+
+/* middle section start here */
+.bioright-second {
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid rgb(197, 195, 195);
+    display: flex;
+
+}
+
+.bioright-second .bio-right-1 {
+    width: 15%;
+    height: 20%;
+}
+
+.bioright-second .bio-right-2 {
+    width: 18%;
+    height: 20%;
+}
+
+.bioright-second .bio-right-3 {
+    width: 15%;
+    height: 20%;
+}
+
+.bioright-second .bio-right-4 {
+    width: 25%;
+    height: 20%;
+}
+
+.bioright-second .bio-right-5 {
+    width: 30%;
+    height: 20%;
+}
+
+.bio-header {
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.bio-heading {
+    font-weight: 600;
+    padding: 0.6rem;
+}
+
+.bio-headers {
+    padding: 0.2rem;
+}
+
+.bio-right-5 .fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in {
+    padding: 0.5rem;
+    color: grey
+}
+
+.bioright-third {
+    width: 100%;
+    height: 15%;
+    ;
+}
+
+.bioright-third h6 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-family: poppins;
+}
+
+.right-head {
+    margin-top: 1.5rem;
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgb(53, 52, 52)
+}
+
+.right-heading {
+    margin-top: 1.5rem;
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgb(53, 52, 52)
+}
+
+.right-heads {
+    margin-top: 0.4rem;
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgb(53, 52, 52)
+}
+
+.bioright-four {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 7%;
+}
+
+.rating-1,
+.rating-2,
+.rating-3 {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.rating-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rating-left img {
+    text-align: center;
+}
+
+.rating-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.rating-top {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-top: 1.7rem;
+}
+
+.rating-bottom p {
+    color: rgb(83, 83, 83);
+    font-size: 1rem;
+}
+
+.course-wrapper {
+    width: 100%;
+    height: 40%;
+}
+
+.course-wrapper h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    height: 10%;
+    color: rgb(3, 3, 73)
+}
+
+.course-wraps {
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+}
+
+.course-wrapse {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.course-wrap-l {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.course-wrap-r {
+    width: 50%;
+    height: 50%;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.course-wrap-l img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.course-wrap-r img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.image-top {
+    position: absolute;
+    top: 15px;
+    right: 2rem;
+    border: none;
+    font-size: 0.8rem;
+    background: #2278e9;
+    padding: 0.4rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.icons-l {
+    width: 50%;
+    margin-top: 10px;
+    ;
+}
+
+.icons .fa-star {
+    font-size: 20px;
+    color: rgb(233, 229, 10);
+}
+
+.icons .fa-child {
+    font-size: 20px;
+    color: rgb(112, 112, 110);
+}
+
+.description {
+    text-align: justify;
+    padding-left: 2rem;
+    ;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0.6rem;
+    ;
+    color: rgb(2, 2, 10);
+
+}
+
+.author-name {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.author-l {
+    width: 30%;
+    padding: 0.5rem;
+    ;
+}
+
+.author-r {
+    width: 70%;
+}
+
+.author-r p {
+    text-align: left;
+    padding: 1rem;
+    ;
+}
+
+.author-name img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: 4rem;
+}
+
+
+.tagsection {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.tag-l {
+    width: 50%;
+    padding: 1.2rem;
+    font-size: 1rem;
+    color: rgb(109, 106, 106);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tag-r {
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: rgb(7, 4, 51);
+    font-weight: bold;
+    ;
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bio-wrap {
+
+        flex-direction: column;
+        height: auto;
+        ;
+
+    }
+
+    .bio-left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .biograph-top {
+        display: none;
+    }
+
+    .bio-right-1 {
+        width: 100%;
+
+    }
+
+    .bioright-third {
+        width: 100%;
+    }
+
+
+}
+
+/* styling ends here */

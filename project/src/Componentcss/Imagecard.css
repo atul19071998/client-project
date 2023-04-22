@@ -1,0 +1,51 @@
+ /* styling starts here */
+ .image-wrapper {
+     width: 100%;
+     height: 50vh;
+     margin-top: 5rem;
+     ;
+     /* border:1px solid red; */
+ }
+
+ .image-wrap {
+     width: 100%;
+     height: 100%;
+     background-image: url('https://echooling-react.vercel.app/static/media/1.444626c32f772f4850ee.jpg');
+     background-size: cover;
+
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .profile-center {
+     display: flex;
+     justify-content: center;
+     width: 100%
+ }
+
+ .p-left {
+     width: 50%;
+     text-align: center;
+     color: rgb(252, 241, 241);
+     font-size: 1.1rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .p-right {
+
+     text-align: center;
+     color: rgb(252, 241, 241);
+     font-size: 1.1rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ h1 {
+     font-size: 3rem;
+
+     color: rgb(252, 241, 241);
+     font-family: verdana;
+ }
+
+ /* styling ends here */

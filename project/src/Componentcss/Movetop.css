@@ -1,0 +1,21 @@
+/* styling starts here */
+.scrollTop-style {
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    z-index: 1;
+
+}
+
+.scrollTop {
+
+    background: #3270fc;
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+/* styling ends here */
