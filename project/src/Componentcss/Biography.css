@@ -74,10 +74,12 @@
 .bio-right .bioright-one {
     width: 100%;
     height: 5%;
+     
 }
 
 /* middle section start here */
 .bioright-second {
+    
     width: 100%;
     height: 5%;
     border-bottom: 1px solid rgb(197, 195, 195);
@@ -369,11 +371,20 @@
 
 @media only screen and (max-width: 600px) {
     .bio-wrap {
-
+        width:100%;
         flex-direction: column;
         height: auto;
         ;
 
+    }.bio-wrapper{
+        height:auto;
+    }
+    .bio-left{
+        padding: 0.6rem;;
+    }
+    .bio-right{
+        width:100%;
+        height:auto;;
     }
 
     .bio-left {
@@ -384,17 +395,79 @@
     .biograph-top {
         display: none;
     }
-
-    .bio-right-1 {
-        width: 100%;
-
+    .bioright-second{
+        flex-direction: column;
+        padding: 0.5rem;;
+       
     }
+     
+    .bio-name {
+        display:flex;
+        width:180px;
+     
+    }
+    .bio-header{
+        width:200px;
 
+    
+    };
+  
     .bioright-third {
-        width: 100%;
+        height:500px;
+       
+         
     }
+    .bioright-third h6{
+        padding:0.5rem;
+    }
+    .right-heading ,.right-head,.right-heaing,.right-heads{
+        padding:0.5rem;
+        margin-top:0;
+    }
+    .bioright-four{
+       width:100%;
+       flex-direction: column;
+       padding: 0.6rem;
+        
+    }
+   
+.rating-1, .rating-2 ,.rating-3{
+    flex-direction: column;
+    width:100%
+}
+.rating-left {
+     width:80px;
+     padding: 0.5rem;
 
-
+}
+.rating-top{
+   margin-top:0px;
+}
+.rating-right{
+    padding: 0.2rem;
+    
+}
+.course-wraps{
+    flex-direction: column;
+    padding:0.5rem;
+}
+.course-wrapse{
+    flex-direction: column;
+    padding:0.5rem;
+}
+.course-wrap-l{
+    width:100%;
+}
+.course-wrap-r{
+    width:100%;
+    margin-left:0;
+}
+.description{
+    text-align: center;
+}
+.course-wrapper h2{
+    padding:0.5rem;
+}
 }
 
 /* styling ends here */

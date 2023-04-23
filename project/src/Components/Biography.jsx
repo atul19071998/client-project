@@ -26,18 +26,24 @@ const Biography = () => {
           <div className="bioright-second">
             <div className="bio-right-1">
               <p className="bio-header">Name:</p>
+              <div className="bio-name">
               <p className="bio-headers">Douglas</p>
               <p className="bio-headers">Lyphe</p>
+              </div>
             </div>
             <div className="bio-right-2">
+            <div className="bio-name">
               <p className="bio-header">Job</p>
               <p className="bio-header">Title:</p>
+              </div>
               <p className="bio-headers">Principal</p>
             </div>
             <div className="bio-right-3">
               <p className="bio-header"> Phone:</p>
+              <div className="bio-name">
               <p className="bio-headers">+(088) 223</p>
               <p className="bio-headers"> 478 365</p>
+              </div>
             </div>
             <div className="bio-right-4">
               <p className="bio-heading">Email:</p>
