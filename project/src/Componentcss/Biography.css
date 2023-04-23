@@ -433,7 +433,8 @@
    
 .rating-1, .rating-2 ,.rating-3{
     flex-direction: column;
-    width:100%
+    width:100%;
+    padding: 0.4rem;
 }
 .rating-left {
      width:80px;

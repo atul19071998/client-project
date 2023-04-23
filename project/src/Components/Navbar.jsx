@@ -19,6 +19,7 @@ const Navbar = () => {
           />
         </div>
         <div className="navbar-right">
+          
           <div className="navbar-right1">
             <div class="dropdown">
               <div className="dropdowns">
