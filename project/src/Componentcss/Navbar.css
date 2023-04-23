@@ -1,5 +1,7 @@
  /* styling starts here */
- .navbar-wrapper {
+ 
+
+  .navbar-wrapper {
      width: 100%;
 
  }
@@ -185,14 +187,15 @@
 }
 
 .nav {
-    height: 100px;
     width: 100%;
     background-color:white;
     position: relative;
+    
   }
   
   .nav > .nav-header {
     display: inline;
+  
   }
   
   .nav > .nav-header > .nav-title {
@@ -201,9 +204,11 @@
     color: #fff;
     padding: 10px 10px 10px 10px;
   }
+   
   
   .nav > .nav-btn {
     display: none;
+     
   }
   
   .nav > .nav-links {
@@ -216,13 +221,13 @@
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    color: #fffdfd;
   }
   
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  /* .nav > .nav-links > a:hover {
+    background-color: rgba(49, 14, 14, 0.3);
   }
-  
+   */
   .nav > #nav-check {
     display: none;
   }
@@ -230,6 +235,10 @@
   @media (max-width:600px) {
     .nav-title img{
       width:100%;
+      padding: 0.5rem;
+      margin-top: -10px;;
+     
+       
      
      
     }
@@ -246,9 +255,13 @@
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgb(40, 124, 248);
      
     }
+    .nav > .nav-btn > label,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgb(40, 124, 248);
+       
+      }
     .nav > .nav-btn > label > span {
       display: block;
       width: 25px;
@@ -260,7 +273,9 @@
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #333;
+      height:50%;
+      background-color:white;
+      color:blue;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -271,6 +286,9 @@
     .nav > .nav-links > a {
       display: block;
       width: 100%;
+      color:rgb(3, 3, 65);
+      font-weight: bold;
+      padding: 1rem;;
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
